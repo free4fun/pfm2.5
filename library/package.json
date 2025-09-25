@@ -1,0 +1,23 @@
+{
+  "name": "besu-docker-manager",
+  "version": "0.3.0",
+  "description": "TypeScript wrapper for Docker networks and containers with Jest integration tests",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "jest --runInBand"
+  },
+  "dependencies": {
+    "dockerode": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/dockerode": "^3.3.44",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.30",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.4.5"
+  }
+}
